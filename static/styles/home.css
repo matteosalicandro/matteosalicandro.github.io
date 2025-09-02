@@ -1,0 +1,80 @@
+body{
+  background-color: #F0E2E7;
+  font-family: Perpetua;
+}
+
+
+.name{
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.menu{
+    color: white;
+    font-size: 100%;
+    display: inline-flex;
+    margin-right: 2%
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #c17817;
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.flex-container > div {
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+}
+
+.home-subbody {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: #3f84e5;
+  border-radius: 20px;
+  width: 75vw;
+}
+
+.me{
+  width: 40%;
+}
+
+.home-body{
+  display: flex;
+}
+
+.presentation-message{
+  font-size: 150%;
+  color: white;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  background-color: #b20d30;
+  border-radius: 20px;
+  width: 20vw;
+  margin-left: 3vw;
+}
+
+.flex-container-2{
+  display: flex;
+}
+
+.contact > p{
+  color: white;
+  font-size: 110%;
+  display: block;
+}
+
+a{
+  color: yellow;
+}
