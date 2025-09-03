@@ -40,7 +40,7 @@ body{
   flex-direction: row;
   background-color: #3f84e5;
   border-radius: 20px;
-  width: 75vw;
+  max-width: 75vw;
 }
 
 
@@ -50,7 +50,7 @@ body{
 }
 
 .presentation-message{
-  font-size: 4vh;
+  font-size: 2rem;
   color: white;
 }
 
@@ -59,7 +59,7 @@ body{
   flex-direction: column;
   background-color: #b20d30;
   border-radius: 20px;
-  width: 20vw;
+  max-width: 20vw;
   margin-left: 3vw;
   padding: 1vw;
 }
@@ -70,7 +70,7 @@ body{
 
 .contact > p{
   color: white;
-  font-size: 3vh;
+  font-size: 1.5rem;
   display: block;
 }
 
